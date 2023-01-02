@@ -335,7 +335,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #wsite-com-checkout-list .wsite-com-checkout-item-details-inner, #wsite-com-checkout-summary-list .wsite-com-checkout-item-details-inner { padding-left: 0; }
  }
  .main-wrap .container { max-width: 1500px; }
- .sidebar-nav .dropdown.open + .wsite-menu-wrap, .mobile-nav .dropdown.open + .wsite-menu-wrap { width: 100%; max-height: 20000px; }
+ .sidebar-nav .dropdown.open + .wsite-menu-wrap, .mobile-nav .dropdown.open + .wsite-menu-wrap { width: 100%; max-height: 100%; }
  body:not(.nav-position-sidebar) .header, body.nav-position-top .header, body.nav-position-top-right .header { padding: 0px 20px; }
  .banner-wrap .wsite-header-section .container { padding: 10px 100px; }
 
