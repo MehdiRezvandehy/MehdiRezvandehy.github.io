@@ -47,12 +47,12 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  }
  @media screen and (min-width: 64.0625em) {
  body:not(.nav-position-sidebar) .header, body.nav-position-top .header, body.nav-position-top-right .header { position: relative; padding: 10px 40px; border-bottom: none; -webkit-transition: padding 280ms ease; -moz-transition: padding 280ms ease; -ms-transition: padding 280ms ease; transition: padding 280ms ease; }
- body:not(.nav-position-sidebar) .header .container, body.nav-position-top .header .container, body.nav-position-top-right .header .container { display: table; overflow-y: hidden; width: 100%; height: 20px; -webkit-transition: height 280ms ease; -moz-transition: height 280ms ease; -ms-transition: height 280ms ease; transition: height 280ms ease; }
+ body:not(.nav-position-sidebar) .header .container, body.nav-position-top .header .container, body.nav-position-top-right .header .container { display: table; overflow-y: hidden; width: 100%; height: 80px; -webkit-transition: height 280ms ease; -moz-transition: height 280ms ease; -ms-transition: height 280ms ease; transition: height 280ms ease; }
  body:not(.nav-position-sidebar) .header .logo, body.nav-position-top .header .logo, body.nav-position-top-right .header .logo { display: table-cell; text-align: left; vertical-align: middle; max-height: 80px; overflow: hidden; }
  body:not(.nav-position-sidebar) .header .logo a, body.nav-position-top .header .logo a, body.nav-position-top-right .header .logo a { padding: 5px 20px 5px 0; }
  body:not(.nav-position-sidebar) .header .desktop-nav, body.nav-position-top .header .desktop-nav, body.nav-position-top-right .header .desktop-nav { display: table-cell; }
  body:not(.nav-position-sidebar) .header .nav li, body.nav-position-top .header .nav li, body.nav-position-top-right .header .nav li { display: inline-block; }
- body:not(.nav-position-sidebar) .header .nav a, body.nav-position-top .header .nav a, body.nav-position-top-right .header .nav a { padding: 0px 20px; }
+ body:not(.nav-position-sidebar) .header .nav a, body.nav-position-top .header .nav a, body.nav-position-top-right .header .nav a { padding: 10px 20px; }
  body:not(.nav-position-sidebar) .header .membership-cart, body.nav-position-top .header .membership-cart, body.nav-position-top-right .header .membership-cart { display: table-cell; width: 5%; text-align: right; white-space: nowrap; }
  body:not(.nav-position-sidebar) .header .membership-cart span, body.nav-position-top .header .membership-cart span, body.nav-position-top-right .header .membership-cart span { display: inline-block; }
  body:not(.nav-position-sidebar).collapse .header, body.nav-position-top.collapse .header, body.nav-position-top-right.collapse .header { padding: 5px 40px; border-bottom: 1px solid rgba(0,0,0,0.05); }
@@ -112,7 +112,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .sidebar-nav .dropdown.open span.icon-caret:before, .mobile-nav .dropdown.open span.icon-caret:before { top: 5px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); transform: rotate(-135deg); }
  .sidebar-nav .dropdown.open + .wsite-menu-wrap, .mobile-nav .dropdown.open + .wsite-menu-wrap { width: 100%; max-height: 1000px; }
  .sidebar-nav .has-submenu > .dropdown span.icon-caret { padding: 12px 0 8px 10px; }
- .wsite-header-section { background: url(theme/images/default-bg.jpg?1672454439) no-repeat center center; background-size: cover; }
+ .wsite-header-section { background: url(theme/images/default-bg.jpg?1672437422) no-repeat center center; background-size: cover; }
  .header-page .wsite-header-section { height: 550px; }
  body:not(.wsite-editor) .nav-wrap { opacity: 0; -webkit-transition: opacity 500ms ease-in 300ms; -moz-transition: opacity 500ms ease-in 300ms; -ms-transition: opacity 500ms ease-in 300ms; transition: opacity 500ms ease-in 300ms; }
  body:not(.wsite-editor).fade-in .nav-wrap { opacity: 1; }
@@ -122,7 +122,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-form-input, .wsite-search-element-input, .form-select, .wsite-form-field select, .wsite-com-product-option-groups select, .form-radio-container, input[type='radio'], input[type='checkbox'] { color: #000000; font-family: "Roboto", Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; line-height: 1; border-radius: 0; -webkit-transition: all 300ms ease-in; -moz-transition: all 300ms ease-in; -ms-transition: all 300ms ease-in; transition: all 300ms ease-in; }
  .wsite-form-input, .wsite-search-element-input, .form-select, .wsite-form-field select, .wsite-com-product-option-groups select, #commentPostDiv .field input[type=text], #commentPostDiv .field textarea { height: auto; max-width: 370px; padding: 10px 20px !important; margin-bottom: 10px; background-image: none; background-color: #f1f1f1; border: none; }
  .wsite-form-input:hover, .wsite-form-input:focus, .wsite-form-input--focus, .wsite-search-element-input:hover, .wsite-search-element-input:focus, .form-select:hover, .form-select:focus, .wsite-form-field select:hover, .wsite-form-field select:focus, .wsite-com-product-option-groups select:hover, .wsite-com-product-option-groups select:focus, #commentPostDiv .field input[type=text]:hover, #commentPostDiv .field input[type=text]:focus, #commentPostDiv .field textarea:hover, #commentPostDiv .field textarea:focus { background-color: #e5e5e5; }
- .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { text-indent: 0.01px; text-overflow: ''; height: 40px; background-image: url(theme/images/select-dropdown.svg?1672454439); background-position: 97% center; background-repeat: no-repeat; }
+ .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { text-indent: 0.01px; text-overflow: ''; height: 40px; background-image: url(theme/images/select-dropdown.svg?1672437422); background-position: 97% center; background-repeat: no-repeat; }
  .wsite-form-field label, .wsite-com-product-option-groups label { margin-bottom: 5px; }
  .wsite-form-field input[type='radio'], .wsite-form-field input[type='checkbox'], .wsite-com-product-option-groups input[type='radio'], .wsite-com-product-option-groups input[type='checkbox'] { width: 20px; height: 20px; border: 1px solid rgba(0,0,0,0.3) !important; }
  .wsite-form-field input[type='radio']:hover, .wsite-form-field input[type='radio']:checked, .wsite-form-field input[type='checkbox']:hover, .wsite-form-field input[type='checkbox']:checked, .wsite-com-product-option-groups input[type='radio']:hover, .wsite-com-product-option-groups input[type='radio']:checked, .wsite-com-product-option-groups input[type='checkbox']:hover, .wsite-com-product-option-groups input[type='checkbox']:checked { border-color: #000000 !important; }
@@ -335,20 +335,14 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #wsite-com-checkout-list .wsite-com-checkout-item-details-inner, #wsite-com-checkout-summary-list .wsite-com-checkout-item-details-inner { padding-left: 0; }
  }
  .main-wrap .container { max-width: 1500px; }
- .sidebar-nav .dropdown.open + .wsite-menu-wrap, .mobile-nav .dropdown.open + .wsite-menu-wrap { width: 100%; max-height: 100%; }
- body:not(.nav-position-sidebar) .header, body.nav-position-top .header, body.nav-position-top-right .header { padding: 0px 20px; }
+ .sidebar-nav .dropdown.open + .wsite-menu-wrap, .mobile-nav .dropdown.open + .wsite-menu-wrap { width: 100%; max-height: 20000px; }
+ body:not(.nav-position-sidebar) .header, body.nav-position-top .header, body.nav-position-top-right .header { padding: 10px 20px; }
  .banner-wrap .wsite-header-section .container { padding: 10px 100px; }
-
-.wsite-section-content > .container {
-     padding: 0px !important; 
-    max-width: 80% !important; }
-
-
  .wsite-button .wsite-button-inner { font-size: 40px; font-weight: bold; }
  .wrapper .container, .wrapper .wsite-footer { position: relative; width: 100%; max-width: 1200px; padding: 80px; margin: 0 auto; overflow: hidden; box-sizing: border-box; }
  element.style { height: 10px; display: inline; }
- .logo img { overflow: hidden; max-width: 80px; max-height: 200px; }
- .logo .wsite-logo { overflow: hidden; max-width: 100%; max-height: 250px; }
+ .logo img { overflow: hidden; max-width: 110px; max-height: 200px; }
+ .logo .wsite-logo { overflow: hidden; max-width: 100%; max-height: 200px; }
  element.style { display: table; }
 div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
