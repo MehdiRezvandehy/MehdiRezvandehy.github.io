@@ -21,10 +21,10 @@ def resize_gif(input_path, output_path, target_width, target_height, resampling_
         )
 
 if __name__ == "__main__":
-    input_path = "./images/3.gif"
-    output_path = "./images/fixed_size/3.gif"
-    target_width = 742  # Adjust to your desired width
-    target_height = 460  # Adjust to your desired height
+    input_path = "./images/8.gif"
+    output_path = "./images/fixed_size/8.gif"
+    target_width = 900  # Adjust to your desired width
+    target_height = 600  # Adjust to your desired height
     resampling_filter = Image.LANCZOS  # Experiment with different filters (ANTIALIAS, BICUBIC, LANCZOS, etc.)
 
     resize_gif(input_path, output_path, target_width, target_height)

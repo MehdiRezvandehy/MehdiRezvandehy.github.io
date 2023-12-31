@@ -25,7 +25,7 @@ def resize_images(input_folder, output_folder, target_width, target_height):
 if __name__ == "__main__":
     input_folder = "./images"
     output_folder = "./images/fixed_size"
-    target_width = 742  # Adjust to your desired width
-    target_height = 460  # Adjust to your desired height
+    target_width = 900  # Adjust to your desired width
+    target_height = 600  # Adjust to your desired height
 
     resize_images(input_folder, output_folder, target_width, target_height)
