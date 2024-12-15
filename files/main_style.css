@@ -77,6 +77,14 @@
  .paris-header .container .site-utils .search-icon { display: none; height: 80px; background: none; border: none; fill: #000; }
  .paris-header .container .site-utils .wsite-search:not(.visible) + .search-icon { display: block; }
  .paris-header .container .site-utils .wsite-search[style="display: none;"] + .search-icon { display: none !important; }
+ .paris-header .container .site-utils .wsite-search input {color: 0011FF; font-size: 16px; font-weight: 600; transition: color 0.3s ease;}
+/* Input Field Focus Styling */
+ .paris-header .container .site-utils .wsite-search input:focus {
+   color: #000; /* Ensure text color remains black when focused */
+   background-color: #f9f9f9; /* Light background for focus */
+   border-bottom: 2px solid #007bff; /* Optional: Add focus indicator */
+ }
+
  .paris-header .container .site-utils .search-close { display: none; z-index: 15; height: 80px; border: none; background: none; }
  .paris-header .container .site-utils .search-close.animating, .paris-header .container .site-utils .search-close.visible { display: block !important; }
  .paris-header .container .site-utils .search-close.animating-in, .paris-header .container .site-utils .search-close.animating-out { opacity: 0; transition: opacity 0.3s ease; }
