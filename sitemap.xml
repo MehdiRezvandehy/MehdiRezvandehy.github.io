@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mehdirezvandehy.github.io/</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/index.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/projects.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/blogs.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/lectures.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/publications.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/langchain-applications-rag-agents.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/fine-tune_llama.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/survival-analysis-customer-churn.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/customer-segmentation-for-online-retail.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/streamlit_app_to_train_model_churn.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/classification_imbalanced_class.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/fake_news_detection.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/use-cases-for-time-series-prediction.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/fine-tune-bart-for-tweet-classification.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/prediction-of-serious-fluid-leakage-in-alberta.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/feature-importance-by-majority-vote.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/fine-tuning-gpt-for-style-completion.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/abstractive-semantic-search-by-openai.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/fine_tune_gpt_movie_genre.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/interactive_data_science_streamlit.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/introduction-to-hugging-face.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/clustering_algorithms.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/statistical-analysis-python.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/text-similarity.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/multicollinearity.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/exploring_langchain.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/dimensionality-reduction.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/exploratory-data-analysis.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/object-oriented-programming.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/churn-prediction-for-bank-client.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/semantic-search-using-bert.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/extractive-question-answering-by-bert.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/fine-tunning-t5-model-for-title-prediction.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/image-captioning-by-fine-tuning-vit.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/correct-histogram-uncertainty-estimation.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/declustering-to-improve-noisy-variogram.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/variogram-inference-widely-spaced-data.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/introduction-to-llm.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/feature-selection.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/convolutional-neural-network.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/natural-language-processing.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/pyspark--fundamentals-for-big-data.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/build-serverless-chatgpt-api.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/imputation-with-lu-simulation.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/machine-learning-overview-8203.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/python-and-pandas.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/main-steps-of-machine-learning.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/classification.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/model-training.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/support-vector-machine.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/decision-trees.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/ensemble-learning--random-forest.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/artificial-neural-network.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/deep-learning.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/unsupervised-learning.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/introduction-to-git.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/introduction-to-r.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/sql-basic-to-advanced-level.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/develope-python-packages.html</loc>
+  <lastmod>2024-12-19T04:26:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Customer_Segmentation/Customer_Segmentation.html</loc>
+  <lastmod>2024-10-29T02:17:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Fake_News_Detection_BERT/fake_news_detection_BERT.html</loc>
+  <lastmod>2024-10-29T02:05:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/movie_genre_prediction_GPT/movie_genre_prediction_GPT.html</loc>
+  <lastmod>2024-10-29T02:01:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Data-Science-Web-App-with-Streamlit/streamlit_applications.html</loc>
+  <lastmod>2024-12-11T02:46:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Customer_Churn_Prediction/Customer_Chrun_Prediction.html</loc>
+  <lastmod>2024-11-03T01:54:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Extractive-Question-Answering-using-BERT/question_answering_BERT.html</loc>
+  <lastmod>2024-10-29T02:41:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Abstract-Title-Prediction-by-Fine-Tuned-T5/abstract_title_prediction_T5.html</loc>
+  <lastmod>2024-10-29T02:49:07+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Introduction_to_R/Introduction_to_R.html</loc>
+  <lastmod>2024-11-09T14:18:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mehdirezvandehy.github.io/Machine-Learning-Course-University-of-Calgary/htmls/Class14_Developing_Python_Packages.html</loc>
+  <lastmod>2024-12-10T04:17:51+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
