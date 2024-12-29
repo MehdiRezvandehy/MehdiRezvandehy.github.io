@@ -514,7 +514,7 @@
  .imageGallery .galleryCaptionHolderInnerBg { background-color: rgba(0,0,0,0); opacity: 1; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  .imageGallery .galleryCaptionInnerTextHolder { position: absolute; bottom: 0; width: 100%; text-align: center; box-sizing: border-box; }
  .imageGallery .fullImageGalleryCaption .galleryCaptionInnerTextHolder { position: relative; }
- .imageGallery .galleryCaptionInnerText { color: #FFFF00; letter-spacing: normal; text-shadow: none; font-family: 'Lato', sans-serif; font-size: 20px; font-weight: 400; background-color: rgba(56,56,56,0.9); display: inline-block; padding: 2px 4px; line-height: 25px; }
+ .imageGallery .galleryCaptionInnerText { color: #DFFF00; letter-spacing: normal; text-shadow: none; font-family: 'Lato', sans-serif; font-size: 20px; font-weight: 400; background-color: rgba(56,56,56,0.5); display: inline-block; padding: 2px 4px; line-height: 25px; }
  .fancybox-skin { background: transparent !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
  .fancybox-title { color: #ffffff; font-family: 'Lato', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; }
  .fancybox-close, .fancybox-next span, .fancybox-prev span { background: none !important; width: auto; height: auto; }
