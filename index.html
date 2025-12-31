@@ -420,7 +420,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 </style><div id="element-78b8cde4-1a72-45a9-b265-5bf339731d95" data-platform-element-id="848857247979793891-1.0.1" class="platform-element-contents">
 	<div class="colored-box">
     <div class="colored-box-content">
-        <div style="width: auto"><div></div><div class="paragraph" style="text-align:justify;"><strong><u><font size="6">&#8203;&#8203;&#8203;&#8203;</font></u><font size="6">Hi, I am Mehdi<br /><br />&#8203;Welcome to my personal webpage!&nbsp;</font><br /><font size="6">&#8203;</font></strong><br />As a Principal Data Scientist, my expertise encompasses diverse areas such as Advanced Machine Learning, Predictive Modeling, Customer Analytics, and Segmentation. I specialize in developing and deploying cutting-edge Large Language Models (LLMs) and Generative AI solutions. Holding a PhD in Geostatistics from the University of Alberta, I bring extensive experience across various industries, including engineering (oil &amp; gas), telecommunications, finance (banking), and academia.<br />&#8203;<br />I have shared some of my notable projects, blogs, lectures, and publications. Feel free to reach out if you have any questions or would like to connect!&nbsp;</div>
+        <div style="width: auto"><div></div><div class="paragraph" style="text-align:justify;"><strong><u><font size="6">&#8203;&#8203;&#8203;&#8203;</font></u><font size="6">Hi, I am Mehdi<br /><br />&#8203;Welcome to my personal webpage!&nbsp;</font><br /><font size="6">&#8203;</font></strong><br />As a Principal Data Scientist, my expertise encompasses diverse areas such as Advanced Machine Learning, Predictive Modeling, Customer Analytics, and Segmentation. I specialize in developing and deploying cutting-edge Large Language Models (LLMs) and Generative AI solutions. Holding a PhD in Geostatistics from the University of Alberta, I bring extensive experience across various industries, including finance (banking), telecommunications, engineering (oil &amp; gas), and academia.<br />&#8203;<br />I have shared some of my notable projects, blogs, lectures, and publications. Feel free to reach out if you have any questions or would like to connect!&nbsp;</div>
 
 <div style="text-align:center;"><div style="height:0px;overflow:hidden"></div>
 <span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-linkedin' href='https://www.linkedin.com/in/mehdi-rezvandehy-phd-70a40b52/' target='_blank' alt='Linkedin' aria-label='Linkedin'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' onclick="alert('This is my email: mrezvandehy@gmail.com');" target='_blank' alt='Email' aria-label='Email'><span class='wsite-social-item-inner'></span></a></span>
@@ -771,17 +771,31 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 <!------------------------------- multi_rag_workflow_with_langgraph ------------------------------->
 
 <div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="multi_rag_workflow_with_langgraph.html">Multi-RAG Workflow with LangGraph
-</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Multi-source RAG pipeline built with LangGraph, handling retrieval, grading, and query refinement.
-Automatic web-search fallback and structured evaluation for high-quality outputs. Generates clean, synthesized summaries with automatic email delivery on a schedule.</font></span></div>
+</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Multi-source RAG pipeline built with LangGraph, orchestrating retrieval, grading, query refinement, and answer generation in a structured workflow. Documents are fetched from multiple sources, chunked, and evaluated using an LLM-based relevance grader.
+When retrieval quality is low, queries are automatically rewritten, with a web-search fallback to ensure missing information is covered. LangGraph coordinates multi-step reasoning and supports processing and summarizing multiple questions. The pipeline generates clean, synthesized outputs and performs a final quality evaluation.
+Results are compiled into a report and automatically emailed on a schedule, with full automation supported via GitHub Actions.</font></span></div>
 
+  <a href="multi_rag_workflow_with_langgraph.html"
+     style="
+       display:inline-block;
+       padding:8px 8px;
+       background-color:#555;
+       color:#fff;
+       text-decoration:none;
+       font-size:16px;
+       font-weight:600;
+       border-radius:4px;
+     ">
+     READ MORE
+  </a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
-<a href='enhancing_retrieval_langGraph.html' target='_blank'>
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
+<a href='multi_rag_workflow_with_langgraph.html' target='_blank'>
 <img src="images/projects/multi_rag_email_pipeline.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
@@ -794,6 +808,7 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 	</table>
 </div></div></div>
 
+
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;"></hr>
 <div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
@@ -805,18 +820,81 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 
 
-<!------------------------------- Multi-Step-Plan-and-Execute-Agents-with-LangGraph ------------------------------->
+<!------------------------------- containerizing_ml_model_with_docker ------------------------------->
 
-<div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="multi-step_plan_execute_agents_langgraph.html">Multi-Step Plan and Execute Agents with LangGraph
-</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Showcasing a multi-step agent workflow using LangChain and LangGraph to handle complex tasks through planning, execution, and dynamic re-planning. Demonstrates how agents decompose queries, use tools, and adapt strategies to generate accurate final responses.</font></span></div>
+<div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="multi_rag_workflow_with_langgraph.html">Containerizing Machine Learning Model with Docker
+</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating an end-to-end containerization workflow for a machine learning application, from model training to production deployment. It covers training a model, saving artifacts, and packaging the app using both manual Docker image creation and a Dockerfile-based approach. The process includes building, tagging, and pushing images to Docker Hub, followed by deployment on Hugging Face Spaces (free tier) as a fully hosted web application.</font></span></div>
 
+  <a href="containerizing_ml_model_with_docker.html"
+     style="
+       display:inline-block;
+       padding:8px 8px;
+       background-color:#555;
+       color:#fff;
+       text-decoration:none;
+       font-size:16px;
+       font-weight:600;
+       border-radius:4px;
+     ">
+     READ MORE
+  </a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
+<a href='multi_rag_workflow_with_langgraph.html' target='_blank'>
+<img src="images/projects/containerizing_ml_model_with_docker.gif" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
+
+<!------------------------------- Multi-Step-Plan-and-Execute-Agents-with-LangGraph ------------------------------->
+
+<div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="multi-step_plan_execute_agents_langgraph.html">Planning & Execution Agents with LangGraph
+</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">A multi-step agent workflow built with LangChain and LangGraph is used to solve complex tasks through structured planning and execution. User queries are decomposed into smaller steps that are executed sequentially, with dynamic re-planning applied when needed. A dedicated planning state tracks inputs, intermediate actions, and final outputs throughout the process. External tools such as web search are integrated to support information retrieval and reasoning. The workflow is orchestrated using a graph-based architecture with distinct planning, execution, and re-planning nodes. This design enables robust multi-stage reasoning and accurate final responses.</font></span></div>
+
+
+  <a href="multi-step_plan_execute_agents_langgraph.html"
+     style="
+       display:inline-block;
+       padding:8px 8px;
+       background-color:#555;
+       color:#fff;
+       text-decoration:none;
+       font-size:16px;
+       font-weight:600;
+       border-radius:4px;
+     ">
+     READ MORE
+  </a>
+
+					
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='multi-step_plan_execute_agents_langgraph.html' target='_blank'>
 <img src="images/projects/langgraph_plan_execute.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -829,6 +907,7 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 		</tbody>
 	</table>
 </div></div></div>
+
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;"></hr>
@@ -846,13 +925,26 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 <div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="llm_agent_evaluation_metrics.html">Evaluating LLMs: Metrics, Bias, and Reasoning Strategies
 </a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Introducing an evaluation framework for LLMs that highlights key metrics, rubric-based scoring, and positional bias. Demonstrating the impact of reasoning strategies like chain-of-thought and exploring methods to reduce bias in AI outputs.</font></span></div>
 
+  <a href="llm_agent_evaluation_metrics.html"
+     style="
+       display:inline-block;
+       padding:8px 8px;
+       background-color:#555;
+       color:#fff;
+       text-decoration:none;
+       font-size:16px;
+       font-weight:600;
+       border-radius:4px;
+     ">
+     READ MORE
+  </a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='llm_agent_evaluation_metrics.html' target='_blank'>
 <img src="images/projects/llm_agent_evaluation_metrics_bias_rubrics.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -881,15 +973,29 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 <!------------------------------- langchain_agents_selection_bias ------------------------------->
 
 <div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="langchain_agents_selection_bias.html">Evaluating LLM Tool Selection with LangChain Agents
-</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating AI agents built with LangChain and evaluating LLMs on tool selection tasks. Highlighting the use of a manager agent to route queries and analyze reasoning performance and positional bias.</font></span></div>
+</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating AI agents built with LangChain and a structured framework for evaluating LLMs on tool selection tasks. A manager agent routes queries, captures intermediate reasoning, and applies rubric-based scoring to assess performance. The evaluation compares model behavior with and without chain-of-thought reasoning while analyzing positional bias. Practical examples highlight the impact of bias and strategies for mitigating it.</font></span></div>
 
+
+<a href="langchain_agents_selection_bias.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='langchain_agents_selection_bias.html' target='_blank'>
 <img src="images/projects/langchain_agents_selection_bias.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -917,15 +1023,29 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 <!------------------------------- agentic_workflow_crewai_langchain ------------------------------->
 
 <div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="agentic_workflow_crewai_langchain.html">Multi-Agent Workflows with CrewAI and LangChain
-</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating collaborative AI with CrewAI agents that communicate, delegate tasks, and work as a team. Showcasing role-based agents enhanced with web search and personalized response generation using LangChain and SerpAPI.</font></span></div>
+</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating collaborative, role-based AI agents built with CrewAI, designed to tackle complex tasks through teamwork and specialized roles. Each agent is assigned a specific function, enabling them to communicate, coordinate, and dynamically delegate subtasks for efficient problem-solving. The system supports both manager-driven and fully autonomous agent configurations, adapting to different workflows. External tools like LangChain and SerpAPI are integrated to retrieve real-time information from the web, enhancing decision-making. The gathered data is processed collaboratively to generate personalized, context-aware messages. This framework highlights the advantages of multi-agent collaboration over traditional single-agent approaches, emphasizing flexibility, scalability, and intelligent task sharing.</font></span></div>
 
 
-					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+<a href="agentic_workflow_crewai_langchain.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
+			
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='agentic_workflow_crewai_langchain.html' target='_blank'>
 <img src="images/projects/crewai_agentic.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -953,15 +1073,29 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 <!------------------------------- object_detection_with_pytorch ------------------------------->
 
 <div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="object_detection_with_pytorch.html">Deep Learning with PyTorch: From CNNs to Object Detection
-</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Showcasing deep learning workflows in PyTorch, from image classification with CNNs to object detection using R-CNN variants. Demonstrating techniques like fine-tuning pretrained models and applying evaluation methods such as IoU and NMS.</font></span></div>
+</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Showcasing deep learning workflows in PyTorch, covering tasks from image classification to object detection. The workflow begins with building and training Convolutional Neural Networks (CNNs) for image classification, followed by fine-tuning a pretrained ResNet-18 model to improve performance. It then introduces object detection using R-CNN and Fast R-CNN variants, demonstrating how to implement these models in PyTorch. Techniques for optimizing and evaluating model performance are highlighted, including Intersection over Union (IoU) and Non-Maximum Suppression (NMS). Practical examples illustrate both the training process and evaluation methods.</font></span></div>
 
+
+<a href="object_detection_with_pytorch.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='object_detection_with_pytorch.html' target='_blank'>
 <img src="images/projects/object_detection_pytorch.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -988,15 +1122,27 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 
 <!------------------------------- visual_search_system ------------------------------->
 
-<div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="visual_search_system.html">End-to-End Visual Search: Image Similarity Retrieval</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating a visual search system that leverages image embeddings to find similar images. Highlighting applications like duplicate detection and content recommendation.</font></span></div>
+<div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="visual_search_system.html">End-to-End Visual Search: Image Similarity Retrieval</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating a visual search system that uses image embeddings to find visually similar images. Images are converted into numeric representations capturing key visual features, which are then compared to retrieve matches. The system supports applications like duplicate detection, content recommendation, and organizing image collections. The workflow covers the full pipeline, from preprocessing and embedding generation to search and result visualization.</font></span></div>
 
-
+<a href="visual_search_system.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='visual_search_system.html' target='_blank'>
 <img src="images/projects/visual_search_system.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1026,13 +1172,25 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 
 <div class="paragraph" style="text-align:justify;"><em><u><strong><font size="5"><a href="langchain-applications-rag-agents.html">LangChain in Action: LLM Applications with RAG and Agents</a></font></strong></u></em><br /><br /><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Demonstrating LangChain's capabilities through chat models, prompt templates, memory management, and chains. Highlighting advanced implementations like Retrieval Augmented Generation (RAG) and intelligent agents for Multi-Doc-Chatbots. Showcasing versatile, LLM-powered solutions.</font></span></div>
 
-
+<a href="langchain-applications-rag-agents.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='langchain-applications-rag-agents.html' target='_blank'>
 <img src="images/projects/lagchain.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1057,16 +1215,30 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- fine-tune_llama ------------------------------->
 
-<div class="paragraph"><em><u><a href="fine-tune_llama.html"><strong><font size="5">&#8203;Fine Tune LLaMA-Model with Customer Support-Chatbot Dataset</font></strong></a><br /></u></em><u></u><br /><br /><font size="3">&#8203;</font><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Showcasing fine-tuning of the LLaMA model using a customer support chatbot dataset. Highlighting improvements in response accuracy and domain-specific understanding. Demonstrating practical applications for tailored, conversational AI solutions.</font></span></div>
+<div class="paragraph"><em><u><a href="fine-tune_llama.html"><strong><font size="5">&#8203;Fine Tune LLaMA-Model with Customer Support-Chatbot Dataset</font></strong></a><br /></u></em><u></u><br /><br /><font size="3">&#8203;</font><span style="color:rgba(0, 0, 0, 0.87)"><font size="3">Showcasing fine-tuning of the LLaMA model using a customer support chatbot dataset to improve response accuracy and domain-specific understanding. The model is optimized to handle industry-specific queries and provide context-aware responses. This enables practical applications such as customized conversational AI for businesses. The workflow highlights the importance of high-quality datasets in building robust and effective chatbots.</font></span></div>
 
+<a href="fine-tune_llama.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:right">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:right;border: 2px solid #006633;">
 <a href='fine-tune_llama.html' target='_blank'>
 <img src="images/projects/llama.gif?1733803542" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1091,16 +1263,31 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- survival-analysis-customer-churn ------------------------------->
 
-<div class="paragraph"><em><u><a href="survival-analysis-customer-churn.html" target="_blank"><strong><font size="5">Survival Analysis for Customer Churn</font></strong></a></u></em><br /><br />&#8203;<br /><font color="#000000"><font size="3" style="">Applying survival analysis to Telco Customer Churn data for predicting customers likely to churn. Utilizing non-parametric and parametric techniques such as Kaplan-Meier, Weibull, and Cox Hazard. Highlighting insights into churn timing and influencing factors for better business strategies.</font></font></div>
+<div class="paragraph"><em><u><a href="survival-analysis-customer-churn.html" target="_blank"><strong><font size="5">Survival Analysis for Customer Churn</font></strong></a></u></em><br /><br />&#8203;<br /><font color="#000000"><font size="3" style="">Applying survival analysis to Telco Customer Churn data to predict which customers are likely to leave. Both non-parametric and parametric methods, including Kaplan-Meier, Weibull, and Cox Hazard models, are used to analyze churn patterns. The approach accounts for censored data to provide more accurate timing predictions. Insights from the analysis reveal factors influencing churn and when it is most likely to occur. These findings can inform better business strategies for customer retention.</font></font></div>
 
 
-					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+<a href="survival-analysis-customer-churn.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
+		
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='survival-analysis-customer-churn.html' target='_blank'>
 <img src="images/projects/survival_analysis.gif?1734059312" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1125,16 +1312,28 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- customer-segmentation-for-online-retail ------------------------------->
 
-<div class="paragraph"><em><u><a href="customer-segmentation-for-online-retail.html" target="_blank"><strong><font size="5">Customer Segmentation for Online Retail</font></strong></a></u><br /></em><br />Applying clustering to group customers based on behavior and interests. Utilizing mini-batch k-means for optimal cluster centroids and defining segments based on feature averages. Visualizing customer groups using PCA for actionable insights in targeted marketing strategies.</div>
+<div class="paragraph"><em><u><a href="customer-segmentation-for-online-retail.html" target="_blank"><strong><font size="5">Customer Segmentation for Online Retail</font></strong></a></u><br /></em><br />Applying clustering to group customers based on behavior and interests, enabling more effective targeted marketing strategies. Mini-batch k-means is used to find optimal cluster centroids, repeated multiple times to ensure stability and avoid suboptimal solutions. Customer segments are defined by calculating the mean of features within each cluster, capturing distinct behavioral patterns. This segmentation allows marketers to tailor strategies for specific groups, such as promoting relevant offers or personalized campaigns. Principal Component Analysis (PCA) is then applied to visualize the clusters and better understand relationships between customer groups. The workflow provides actionable insights into customer behavior and preferences.</div>
 
-
+<a href="customer-segmentation-for-online-retail.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+									
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='customer-segmentation-for-online-retail.html' target='_blank'>
 <img src="images/projects/customer_segmentation.gif" alt="Picture" style="width:100%;max-width:1100px" />
 </a>
@@ -1159,23 +1358,30 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- streamlit_app_to_train_model_churn ------------------------------->
 
-<div class="paragraph"><em><u><strong><font size="5"><a href="streamlit_app_to_train_model_churn.html" target="_blank">&#8203;Streamlit App to Train Model for Customer Churn Prediction</font></strong></a></u><br /></em><br />Building a Streamlit app to train and deploy a customer churn prediction model. Enabling users to input data and visualize churn risk predictions. Providing an interactive interface for model training, evaluation, and insights into customer retention strategies.
+<div class="paragraph"><em><u><strong><font size="5"><a href="streamlit_app_to_train_model_churn.html" target="_blank">&#8203;Streamlit App to Train Model for Customer Churn Prediction</font></strong></a></u><br /></em><br />Building a Streamlit app to train and deploy a customer churn prediction model with an interactive interface. Users can input data and view real-time churn risk predictions. The app includes tools for model training, evaluation, and insights into customer retention. Visualizations help interpret predictions and identify patterns. Hosted on Streamlit’s cloud, it provides an end-to-end workflow for actionable churn analysis.</div>
 
-
-
-
-
-
-</div>
-
+<a href="streamlit_app_to_train_model_churn.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='streamlit_app_to_train_model_churn.html' target='_blank'>
 <img src="images/projects/streamlitapp_customer_churn.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1200,16 +1406,31 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- classification_imbalanced_class ------------------------------->
 
 <div class="paragraph"><strong><font size="5"><em><u><a href="classification_imbalanced_class.html" target="_blank">&#8203;Classification With Imbalanced Class</a><br /></u></em><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Addressing imbalanced classification by applying resampling techniques (oversampling, undersampling, and combinations) to adjust class distribution in training data. Ensuring more balanced data for predictive models to improve minority class performance. Utilizing K-fold cross-validation to evaluate model accuracy, while noting challenges of overfitting due to class distribution differences.&nbsp;</span></div>
 
 
+<a href="classification_imbalanced_class.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='classification_imbalanced_class.html' target='_blank'>
 <img src="images/projects/imbalanced_class.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1233,51 +1454,31 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 			<tr class="wsite-multicol-tr">
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
-						
+<!------------------------------- use-cases-for-time-series-prediction ------------------------------->
 
-<div class="paragraph"><em><u><font size="5"><a href="fake_news_detection.html" target="_blank"><strong>Fine-Tuning BERT for Fake News Detection</strong></a></font></u></em><br /><br /><br /><font color="#000000">Fine-tuning a pre-trained BERT model for fake news detection by adding a classification layer and training on a labeled dataset. Leveraging BERT's ability to capture contextual information for improved text classification. Exploring the process of adapting BERT for the specific task of detecting fake news.</font></div>
+<div class="paragraph"><u><em><a href="use-cases-for-time-series-prediction.html" target="_blank"><strong><font size="5">Time Series Prediction with Real-World Datasets</font></strong></a></em></u><br /><br /><font color="#000000">Applying time series prediction using realistic datasets, including Sunspots and Total Energy Consumption in Alberta. Both supervised learning methods—such as linear regression, neural networks, decision trees, and random forests—and deep learning models like RNN, LSTM, and GRU are used to forecast future values. The workflow emphasizes capturing temporal patterns and trends from historical data. Future predictions are accompanied by uncertainty estimates calculated through multiple simulations. This approach provides insights into expected future behavior and variability, aiding in more informed decision-making.</font><br /></div>
 
 
-					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
-
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
-<a href='fake_news_detection.html' target='_blank'>
-<img src="images/projects/fake_news_bert.gif" alt="Picture" style="width:auto;max-width:100%" />
+<a href="use-cases-for-time-series-prediction.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
 </a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
-
 
 					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div class="paragraph"><u><em><a href="use-cases-for-time-series-prediction.html" target="_blank"><strong><font size="5">Time Series Prediction with Real-World Datasets</font></strong></a></em></u><br /><br /><font color="#000000">Applying time series prediction using realistic datasets, including Sunspots and Total Energy Consumption in Alberta. Utilizing supervised learning techniques (linear regression, neural networks, decision trees, random forest) and deep learning models (RNN, LSTM, GRU) to forecast future values. Calculating uncertainty for future predictions.</font><br /></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
-
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='use-cases-for-time-series-prediction.html' target='_blank'>
 <img src="images/projects/time_series.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1301,17 +1502,30 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 			<tr class="wsite-multicol-tr">
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
-						
+<!------------------------------- fine-tune-bart-for-tweet-classification ------------------------------->
 
-<div class="paragraph"><em><u><font size="5"><a href="fine-tune-bart-for-tweet-classification.html" target="_blank"><strong>Fine-tune BART for Tweet Classification</strong></a></font></u></em><br /><br /><font color="#000000">Leveraging Facebook's BART model for sentiment classification on Coronavirus-related tweets. Initially applying zero-shot classification to predict tweet sentiments, then fine-tuning the model using labeled data for improved accuracy. The fine-tuning process enables BART to adapt to the specific task, enhancing its ability to predict tweet sentiments with higher precision.</font></div>
+<div class="paragraph"><em><u><font size="5"><a href="fine-tune-bart-for-tweet-classification.html" target="_blank"><strong>Fine-tune BART for Tweet Classification</strong></a></font></u></em><br /><br /><font color="#000000">Leveraging Facebook's BART model for sentiment classification on tweets. The workflow begins with zero-shot classification, allowing BART to predict tweet sentiments without task-specific training. A labeled dataset of tweets with five sentiment categories is then used to fine-tune the model. Fine-tuning adapts BART to the specific task, improving accuracy and precision in sentiment prediction. This approach demonstrates both the flexibility of pre-trained language models and the benefits of task-specific adaptation. The process provides reliable insights into public sentiment trends during the pandemic.</font></div>
 
+<a href="fine-tune-bart-for-tweet-classification.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='fine-tune-bart-for-tweet-classification.html' target='_blank'>
 <img src="images/projects/tweet_classification_BART.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1335,17 +1549,30 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 			<tr class="wsite-multicol-tr">
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
-						
+<!------------------------------- prediction-of-serious-fluid-leakage-in-alberta ------------------------------->
 
-<div class="paragraph"><strong><font size="5"><em><u><a href="prediction-of-serious-fluid-leakage-in-alberta.html" target="_blank">Prediction of Serious Fluid Leakage for Alberta Well Energy</a></u></em></font><br /><br /><font size="5">&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Using machine learning to predict serious fluid leakage in hydrocarbon wells in Alberta, Canada. Analyzing well properties like age, depth, and production history to assess the risk of leakage. Addressing class imbalance in the dataset with sampling techniques to improve model accuracy. The study focuses on identifying reliable predictive models to forecast fluid leakage and assess potential environmental risks.</span><strong><font size="5">&nbsp;</font></strong></div>
+<div class="paragraph"><strong><font size="5"><em><u><a href="prediction-of-serious-fluid-leakage-in-alberta.html" target="_blank">Prediction of Serious Fluid Leakage for Alberta Well Energy</a></u></em></font><br /><br /><font size="5">&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Using machine learning to predict serious fluid leakage in hydrocarbon wells in Alberta, Canada. Well properties such as age, depth, production history, and other operational factors are analyzed to assess leakage risk. Advanced imputation techniques and a range of predictive algorithms are applied to build reliable models. Class imbalance is addressed using oversampling and undersampling to improve prediction of the minority class. The study quantifies uncertainty and evaluates model performance with multiple metrics. This approach provides actionable insights for anticipating environmental risks and guiding preventive measures in hydrocarbon operations.</span><strong><font size="5">&nbsp;</font></strong></div>
 
+<a href="prediction-of-serious-fluid-leakage-in-alberta.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
-						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='prediction-of-serious-fluid-leakage-in-alberta.html' target='_blank'>
 <img src="images/projects/methan_leakage_prediction.gif?1734060942" alt="Picture" style="width:343;max-width:100%" />
 </a>
@@ -1371,15 +1598,78 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 					
 						
 
-<div class="paragraph"><strong><font size="5"><em><u><a href="feature-importance-by-majority-vote.html" target="_blank">Majority Vote Technique for Feature Importance&nbsp;</a><br /></u></em><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Applying various predictive models (Linear Regression, Decision Tree, Random Forest, Gradient Boosting) to assess feature importance in both regression and classification problems. Using techniques like Coefficient of Determination and Predictive Power Score to quantify the relevance of input features. Integrating these models with a majority vote technique to identify the most and least important features for predicting targets.</span></div>
+<!------------------------------- fake_news_detection ------------------------------->
+
+<div class="paragraph"><em><u><font size="5"><a href="fake_news_detection.html" target="_blank"><strong>Fine-Tuning BERT for Fake News Detection</strong></a></font></u></em><br /><br /><br /><font color="#000000">Fine-tuning a pre-trained BERT model for fake news detection by adding a classification layer and training on a labeled dataset. Leveraging BERT's ability to capture contextual information for improved text classification. Exploring the process of adapting BERT for the specific task of detecting fake news.</font></div>
+
+<a href="fake_news_detection.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
+					
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+					
+						
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
+<a href='fake_news_detection.html' target='_blank'>
+<img src="images/projects/fake_news_bert.gif" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
+					
+		
+
+<!------------------------------- feature-importance-by-majority-vote ------------------------------->
+
+<div class="paragraph"><strong><font size="5"><em><u><a href="feature-importance-by-majority-vote.html" target="_blank">Majority Vote Technique for Feature Importance&nbsp;</a><br /></u></em><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Applying various predictive models, including Linear Regression, Decision Tree, Random Forest, and Gradient Boosting, to evaluate feature importance in regression and classification tasks. Techniques such as Coefficient of Determination and Predictive Power Score are used to quantify the relevance of input features. Multiple models are integrated using a majority vote approach to identify the most and least influential features. This workflow allows for a robust comparison of feature contributions across different algorithms. Both regression and classification problems are addressed to ensure general applicability. The approach provides clear insights into which features drive predictions and informs better model interpretation.</span></div>
+
+<a href="feature-importance-by-majority-vote.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
+					
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='feature-importance-by-majority-vote.html' target='_blank'>
 <img src="images/projects/feature_importance.gif?1734058961" alt="Picture" style="width:341;max-width:100%" />
 </a>
@@ -1404,16 +1694,31 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- fine-tuning-gpt-for-style-completion ------------------------------->
 
-<div class="paragraph"><u><em><a href="fine-tuning-gpt-for-style-completion.html" target="_blank"><strong><font size="5">Fine-Tuning GPT for Question Answering and Style Completion</font></strong></a></em></u><br />&#8203;<br /><font color="#000000">Fine-tuning GPT-2 for specific tasks like sentiment analysis, question answering, and text summarization using few-shot learning. Further, adjusting the model for "style completion," enabling it to generate text in a specific style. This study showcases the versatility of GPT-2 in handling various natural language processing tasks, with applications in both research and industry.</font><br /></div>
+<div class="paragraph"><u><em><a href="fine-tuning-gpt-for-style-completion.html" target="_blank"><strong><font size="5">Fine-Tuning GPT for Question Answering and Style Completion</font></strong></a></em></u><br />&#8203;<br /><font color="#000000">Fine-tuning GPT-2 for tasks such as sentiment analysis, question answering, and text summarization using few-shot learning. The model is further adapted for “style completion,” enabling it to generate text in a specific writing style. Few-shot learning allows GPT-2 to perform new tasks with minimal task-specific examples. Fine-tuning adjusts the model’s parameters to improve accuracy and relevance for each task. This workflow demonstrates GPT-2’s versatility in handling diverse natural language processing applications. The study highlights its potential use in both research and industry settings for customized text generation and analysis.</font><br /></div>
+
+<a href="fine-tuning-gpt-for-style-completion.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='fine-tuning-gpt-for-style-completion.html' target='_blank'>
 <img src="images/projects/style_completion_GPT.jpg?1734058966" alt="Picture" style="width:360;max-width:100%" />
 </a>
@@ -1438,16 +1743,31 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- abstractive-semantic-search-by-openai ------------------------------->
 
 <div class="paragraph"><em><u><strong><font size="5"><a href="abstractive-semantic-search-by-openai.html" target="_blank">Abstractive Semantic Search by OpenAI</a></font></strong></u></em><br /><br /><font color="#000000">Using OpenAI embeddings for semantic search to improve accuracy by understanding query meaning rather than just keywords. The model generates embeddings for both queries and documents, ranking search results based on similarity. This approach enhances context-aware retrieval, as demonstrated by querying a book to find the most relevant answers.</font><br /></div>
 
+<a href="abstractive-semantic-search-by-openai.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='abstractive-semantic-search-by-openai.html' target='_blank'>
 <img src="images/projects/abst_qa_openai.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1472,16 +1792,30 @@ Automatic web-search fallback and structured evaluation for high-quality outputs
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- fine_tune_gpt_movie_genre ------------------------------->
 
 <div class="paragraph"><em><u><a href="fine_tune_gpt_movie_genre.html" target="_blank"><strong><font size="5">Fine-Tuning GPT for Movie Genre Prediction</font></strong></a><br /></u></em><br /><font color="#000000">Fine-tuning the distilgpt2 model (a more efficient version of GPT-2) for movie genre prediction. After pre-training on a large text corpus, the model is adjusted for the specific task of classifying movie genres based on plot summaries. This approach leverages the GPT architecture to enhance text classification, demonstrating its capability to predict movie genres with fine-tuned accuracy.</font></div>
 
+<a href="fine_tune_gpt_movie_genre.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='fine_tune_gpt_movie_genre.html' target='_blank'>
 <img src="images/projects/gpt2_movie_genre.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1871,19 +2205,82 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
+
+<!------------------------------- explore_docker_container ------------------------------->
+
+<div class="paragraph"><strong><font size="5"><em><u><a href="explore_docker_container.html" target="_blank">Exploring Containerization for Reproducible and Scalable ML Workflows</a></u></em><br /><br /><font color="#000000">&#8203;</font></font></strong><font color="#000000">Demonstrating a practical guide to using Docker for ML and AI workflows, highlighting its role in ensuring reproducibility, portability, and scalability. It explains Docker vs. virtual machines, outlines benefits for ML engineers, data scientists, and DevOps, and shows how Docker fits across the entire ML lifecycle. Common use cases such as containerized notebooks, model serving, and cloud deployment are presented to illustrate how Docker enables consistent, efficient, and scalable ML systems.</a></font></li></ul></div>
+
+
+<a href="explore_docker_container.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
 					
-				
-<!------------------------------- interactive_data_science_streamlit ------------------------------->
-
-<div class="paragraph"><strong><font size="5"><em><u><a href="interactive_data_science_streamlit.html" target="_blank">Comparing AI Agent Frameworks and Workflows</a></u></em><br /><br /><font color="#000000">&#8203;</font></font></strong><font color="#000000">Exploring AI agents and comparing frameworks like LangChain, CrewAI, and AutoGen for building modular, LLM-powered workflows with real-world examples.</a></font></li></ul></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
+<a href='explore_docker_container.html' target='_blank'>
+<img src="images/blogs/explore_docker_container.jpg" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
+						
+					
+				
+<!------------------------------- agentic_workflow_blog ------------------------------->
+
+<div class="paragraph"><strong><font size="5"><em><u><a href="agentic_workflow_blog.html" target="_blank">Comparing AI Agent Frameworks and Workflows</a></u></em><br /><br /><font color="#000000">&#8203;</font></font></strong><font color="#000000">Exploring AI agents and comparing frameworks such as LangChain, CrewAI, and AutoGen for building modular, LLM-powered workflows. The discussion covers the structure, capabilities, and real-world applications of agentic systems. Differences between traditional agents and LLM-based agents are highlighted, including their strengths and limitations. Frameworks are evaluated based on design philosophy, flexibility, and suitability for various tasks. Practical examples illustrate how these tools can be used to create coordinated, multi-agent workflows. The comparison provides insights into designing intelligent and modular AI systems for diverse applications.</a></font></li></ul></div>
+
+
+<a href="agentic_workflow_blog.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+
+					
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='agentic_workflow_blog.html' target='_blank'>
 <img src="images/blogs/agentic_workflow_blog.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1907,17 +2304,31 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 			<tr class="wsite-multicol-tr">
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 						
+
 <!------------------------------- interactive_data_science_streamlit ------------------------------->
 
-<div class="paragraph"><strong><font size="5"><em><u><a href="interactive_data_science_streamlit.html" target="_blank">Data Science Web App with Streamlit</a></u></em><br /><br /><font color="#000000">&#8203;</font></font></strong><font color="#000000">Building interactive web apps with Streamlit for data visualization and machine learning model deployment. Enabling quick development of web interfaces to showcase insights and predictions. Featuring two customer churn prediction apps: one using a pre-trained model and the other for training a model from scratch.</a></font></li></ul></div>
+<div class="paragraph"><strong><font size="5"><em><u><a href="interactive_data_science_streamlit.html" target="_blank">Data Science Web App with Streamlit</a></u></em><br /><br /><font color="#000000">&#8203;</font></font></strong><font color="#000000">Building interactive web apps with Streamlit for data visualization and machine learning model deployment. The platform enables quick development of user-friendly web interfaces to explore insights and predictions without extensive web development knowledge. Two customer churn prediction apps are featured: one using a pre-trained model for quick predictions, and another providing a full workflow to train a model from scratch. Streamlit’s integration with visualization libraries and interactive widgets allows real-time updates and dynamic exploration of data. These apps demonstrate practical applications of deploying machine learning models in an accessible, interactive format. The workflow highlights how Streamlit can streamline the process from data analysis to model deployment.</a></font></li></ul></div>
 
+<a href="interactive_data_science_streamlit.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='interactive_data_science_streamlit.html' target='_blank'>
 <img src="images/blogs/streamlit.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1946,13 +2357,25 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 
 <div class="paragraph"><strong><font size="5"><em><u><a href="introduction-to-hugging-face.html" target="_blank">Introduction to Hugging Face: Pre-trained Model and Tools</a></u></em><br /><br /><font color="#000000">&#8203;</font></font></strong><font color="#000000">Exploring Hugging Face's contributions to natural language processing (NLP) through its open-source transformers library. Providing access to pre-trained models like BERT, GPT, and T5, ready to be fine-tuned for tasks like sentiment analysis, text classification, and summarization. Simplifying the fine-tuning process to enable researchers and developers to focus on specific applications without the complexity of model training.</font><br /><br /></div>
 
+<a href="introduction-to-hugging-face.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+								
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='introduction-to-hugging-face.html' target='_blank'>
 <img src="images/blogs/into_huggingface.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -1977,16 +2400,31 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- clustering_algorithms------------------------------->
 
-<div class="paragraph"><strong><font size="5"><em><u><a href="clustering_algorithms.html" target="_blank">&#8203;Exploring Clustering Techniques</a></u></em><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Examining unsupervised machine learning techniques for grouping unlabeled data through clustering. Covering methods like K-means, DBSCAN, Spectral Clustering, Agglomerative Clustering, and Gaussian Mixture models, applied to both synthetic and real-world data. Discussing the advantages and drawbacks of each technique for effective data segmentation.</span></div>
+<div class="paragraph"><strong><font size="5"><em><u><a href="clustering_algorithms.html" target="_blank">&#8203;Exploring Clustering Techniques</a></u></em><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Examining unsupervised machine learning techniques for grouping unlabeled data using clustering. Methods covered include K-means, DBSCAN, Spectral Clustering, Agglomerative Clustering, and Gaussian Mixture models, applied to both synthetic and real-world datasets. The workflow demonstrates how clustering can automatically identify patterns and group similar data points without human supervision. Advantages and limitations of each technique are discussed to guide effective data segmentation. This approach provides insights into selecting the most suitable clustering method for different types of data. Overall, it highlights the practical applications and challenges of unsupervised learning.</span></div>
 
+
+<a href="clustering_algorithms.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='clustering_algorithms.html' target='_blank'>
 <img src="images/blogs/Clustering.gif" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -2011,16 +2449,29 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- statistical-analysis-python ------------------------------->
 
 <div class="paragraph"><strong><font size="5"><em><u><a href="statistical-analysis-python.html" target="_blank">&#8203;Statistical Analysis in Python</a></u></em><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Implementing various statistical analysis techniques in Python, including bootstrapping, confidence intervals, hypothesis testing (z-test, t-test, f-test, chi-square), A/B testing, and effect size. Applying these methods to two real-world datasets: the 2008 US swing state election results and finch beak dimensions.</span></div>
 
+<a href="statistical-analysis-python.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+									
 
-<div><div class="wsite-image wsite-image-border-thick " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-thick " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='statistical-analysis-python.html' target='_blank'>
 <img src="images/blogs/Statistical_Analysis_In_Python.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -2045,16 +2496,29 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- text-similarity ------------------------------->
 
 <div class="paragraph"><u><em><strong><font size="5" color="#0600fa"><a href="text-similarity.html" target="_blank">&#8203;</a></font></strong></em></u><strong><font size="5"><u><font color="#0600fa"><em><a href="text-similarity.html" target="_blank">Text Similarity in NLP</a></em></font></u><br /><br /><font color="#000000">&#8203;</font></font></strong><span style="color:rgb(0, 0, 0)">Exploring text similarity techniques in natural language processing (NLP) to measure the closeness between two text chunks based on surface-level or meaning. Discussing methods like Jaccard similarity, Cosine similarity, Inverse Document Frequency, Glove pre-trained models, and Word Mover Distance. The focus is on both lexical (word-level) and semantic (phrase/paragraph-level) similarity, with an introduction to data processing for NLP.</span></div>
 
+<a href="text-similarity.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
-
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='text-similarity.html' target='_blank'>
 <img src="images/blogs/Text_Similarity.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -2079,16 +2543,28 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- multicollinearity ------------------------------->
 
-<div class="paragraph"><strong><font size="5"><em><u><a href="multicollinearity.html" target="_blank">&#8203;Detecting and Addressing Multicollinearity</a></u></em><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Examining multicollinearity in multiple regression, where independent variables are highly correlated, affecting the precision and interpretability of model coefficients. Applying methods like p-value for regression coefficients and Variance Inflation Factor (VIF) to detect and address multicollinearity. The analysis includes both realistic and synthetic examples.</span></div>
+<div class="paragraph"><strong><font size="5"><em><u><a href="multicollinearity.html" target="_blank">&#8203;Detecting and Addressing Multicollinearity</a></u></em><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Examining multicollinearity in multiple regression, where high correlation among independent variables affects the precision and interpretability of model coefficients. Methods such as p-values for regression coefficients and Variance Inflation Factor (VIF) are applied to detect multicollinearity. The workflow includes strategies to address and mitigate its impact on model reliability. Both synthetic and realistic examples are used to illustrate the detection and correction process. This analysis helps ensure that regression models produce accurate, interpretable results.</span></div>
 
-
+<a href="multicollinearity.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+							
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='multicollinearity.html' target='_blank'>
 <img src="images/blogs/Multicollinearity.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -2113,16 +2589,29 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- exploring_langchain ------------------------------->
 
 <div class="paragraph"><em><u><a href="exploring_langchain.html" target="_blank"><strong><font size="5">Exploring LangChain for LLM-powered Applications&nbsp;</font></strong></a></u></em><br /><br /><font color="#000000">Exploring the use of LangChain to develop and deploy AI-driven applications using large language models (LLMs). LangChain simplifies the integration of LLMs with other systems for data retrieval and performance monitoring, addressing the complexities of working with diverse LLM architectures, training data, and use cases..</font></div>
 
+<a href="exploring_langchain.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+							
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='exploring_langchain.html' target='_blank'>
 <img src="images/blogs/intro_to_langchain.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -2147,16 +2636,30 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- dimensionality-reduction ------------------------------->
 
-<div class="paragraph" style="text-align:left;"><strong><font size="5"><em><u><a href="dimensionality-reduction.html" target="_blank">&#8203;Dimensionality Reduction Techniques</a></u></em><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Exploring unsupervised dimensionality reduction techniques to reduce the number of input variables while retaining key information. These methods, such as PCA, t-SNE, LLE, and LDA, help manage high-dimensional data, improve visualization, reduce multicollinearity, and mitigate overfitting. The notebook covers the implementation of these techniques to enhance model efficiency and training time.</span></div>
+<div class="paragraph" style="text-align:left;"><strong><font size="5"><em><u><a href="dimensionality-reduction.html" target="_blank">&#8203;Dimensionality Reduction Techniques</a></u></em><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Exploring unsupervised dimensionality reduction techniques to reduce the number of input variables while retaining key information. Methods such as PCA, t-SNE, LLE, and LDA are applied to manage high-dimensional data effectively. These techniques improve data visualization, reduce multicollinearity, and help mitigate overfitting. The workflow demonstrates projecting data into lower-dimensional subspaces that capture essential patterns. Implementation in Python illustrates how dimensionality reduction enhances model efficiency and reduces training time. Overall, the approach highlights practical strategies for handling complex, high-dimensional datasets.</span></div>
 
+<a href="dimensionality-reduction.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
+			
 
-					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='dimensionality-reduction.html' target='_blank'>
 <img src="images/blogs/Dimensionality_Reduction.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -2181,16 +2684,30 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- exploratory-data-analysis ------------------------------->
 
 <div class="paragraph"><strong style="color:rgb(0, 0, 0)"><font size="5"><a href="exploratory-data-analysis.html" target="_blank">Exploratory Data Analysis and Statistical Visualization</a><br /><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Exploring different approaches for exploratory data analysis and statistical visualization, including histograms, CDF, swarm plots, box plots, and kernel density estimation. Discussing probability distributions like binomial, Poisson, normal, and exponential. Focusing on data manipulation and analysis using Pandas to uncover insights and trends in the data.</span></div>
 
+<a href="exploratory-data-analysis.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
 					
 						
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='exploratory-data-analysis.html' target='_blank'>
 <img src="images/blogs/Exploratory_Data_Analysis.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
@@ -2215,16 +2732,28 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 				<td class="wsite-multicol-col" style="width:58.571428571429%; padding:0 15px;">
 					
 						
+<!------------------------------- object-oriented-programming ------------------------------->
 
 <div class="paragraph"><strong><font size="5"><em><u><a href="object-oriented-programming.html" target="_blank">Object Oriented Programming in Python</a><br /></u></em><br />&#8203;</font></strong><span style="color:rgb(0, 0, 0)">Introducing Object-Oriented Programming (OOP) in Python, focusing on the use of classes and methods. Highlighting key OOP concepts such as inheritance and polymorphism, which provide flexibility and enhance code reusability.</span></div>
 
-
+<a href="object-oriented-programming.html"
+   style="
+     display:inline-block;
+     padding:8px 8px;
+     background-color:#555;
+     color:#fff;
+     text-decoration:none;
+     font-size:16px;
+     font-weight:600;
+     border-radius:4px;
+   ">
+   READ MORE
+</a>
 					
-				</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
-					
-						
+</td>				<td class="wsite-multicol-col" style="width:41.428571428571%; padding:0 15px;">
+								
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:0px;padding-bottom:0px;margin-left:0px;margin-right:0px;text-align:center;border: 2px solid #006633;">
 <a href='object-oriented-programming.html' target='_blank'>
 <img src="images/blogs/Object_Oriented_Programming.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
