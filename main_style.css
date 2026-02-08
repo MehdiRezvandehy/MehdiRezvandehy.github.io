@@ -133,7 +133,12 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-form-field input[type='checkbox']:checked, .wsite-com-product-option-groups input[type='checkbox']:checked { background: #ffffff; }
  .wsite-form-field input[type='checkbox']:checked:after, .wsite-com-product-option-groups input[type='checkbox']:checked:after { display: block; border-color: #000000; content: ' '; }
  .wsite-search-element { margin-bottom: 10px; }
- .wsite-search-element .wsite-search-element-input { height: 40px; margin-bottom: 0; }
+ /* Make the search input shorter */
+ .wsite-search-element .wsite-search-element-input {
+  height: 30px !important;     /* shorter overall height */
+  padding-top: 4px !important; /* reduce vertical padding */
+  padding-bottom: 4px !important;
+  font-size: 14px !important;  /* optional: slightly smaller text */}
  .wsite-form-label { display: inline-block; padding: 0; color: #000000; font-family: "Roboto", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 0.08em; line-height: 1; margin-bottom: 10px; }
  .wsite-form-sublabel { display: none; }
  .wsite-form-radio-container { margin-bottom: 15px; }
