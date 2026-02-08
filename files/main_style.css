@@ -593,3 +593,23 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 .product-grid .product-grid-image .product-grid__image-sale-banner-wrapper {background: #0012f8;}
 #wsite-com-category-product-group .category__image-sale-banner-wrapper {background: #0012f8;}
 #wsite-search-product-results .wsite-search-product-result .wsite-search-product-image-container .search__image-sale-banner-wrapper {background: #0012f8;}
+
+/* Shrink search bar input */
+input[type="search"],
+input[type="text"],
+input.search, /* if you’re using a custom class */
+form.search-form input {
+  height: 30px !important;        /* shorter height */
+  padding-top: 4px !important;    /* reduce vertical padding */
+  padding-bottom: 4px !important; /* reduce vertical padding */
+  font-size: 14px !important;     /* optional: smaller text to fit */
+  line-height: 1.2 !important;     /* keep text vertically centered */
+  box-sizing: border-box !important; /* so height includes padding */
+}
+
+/* Match the search button height (if any) */
+button,
+input[type="submit"] {
+  height: 30px !important;
+  padding: 4px 8px !important;
+}
