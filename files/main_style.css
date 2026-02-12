@@ -596,13 +596,12 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 
 
 
-/* Force full height control */
 /* Body margin */
 body {
     margin: 10px;
 }
 
-/* Search container and box */
+/* Search container */
 .gsc-control-cse,
 .gcse-search-box {
     background-color: #387deb !important;
@@ -610,6 +609,7 @@ body {
     padding: 6px 10px !important;
     border-radius: 2px;
     overflow: hidden;
+    width: 300px !important; /* Reduced width */
 }
 
 /* Remove extra margins */
@@ -627,6 +627,7 @@ table.gsc-search-box {
     background: none !important;
     padding: 6px 10px !important;
     box-sizing: border-box;
+    width: 100% !important; /* Fill container */
 }
 
 /* Placeholder colors */
@@ -641,19 +642,7 @@ table.gsc-search-box {
     display: none !important;
 }
 
-/* Search button styling */
+/* Hide search button/icon */
 .gsc-search-button-v2 {
-    padding: 7.5px !important;
-    outline: none !important;
-    border: none !important;
-    background: transparent !important;
-    cursor: pointer;
-}
-
-/* Remove hover/focus effects */
-.gsc-search-button-v2:hover,
-.gsc-search-button-v2:focus {
-    outline: none !important;
-    box-shadow: none !important;
-    background: transparent !important;
+    display: none !important;
 }
