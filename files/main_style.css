@@ -599,7 +599,7 @@ input[type="search"],
 input[type="text"],
 input.search, /* if you’re using a custom class */
 form.search-form input {
-  height: 30px !important;        /* shorter height */
+  height: 3000px !important;        /* shorter height */
   padding-top: 4px !important;    /* reduce vertical padding */
   padding-bottom: 4px !important; /* reduce vertical padding */
   font-size: 14px !important;     /* optional: smaller text to fit */
