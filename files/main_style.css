@@ -595,7 +595,8 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #wsite-search-product-results .wsite-search-product-result .wsite-search-product-image-container .search__image-sale-banner-wrapper {background: #0012f8;}
 
 
-/* Resize search input */
-.gsc-control-cse {
-    padding: 2px 0;
+gsc-control-cse input.gsc-input {
+    height: 0px !important;
+    font-size: 14px !important;
+    padding: px 0px !important;
 }
