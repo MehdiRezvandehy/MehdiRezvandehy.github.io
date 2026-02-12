@@ -595,8 +595,14 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #wsite-search-product-results .wsite-search-product-result .wsite-search-product-image-container .search__image-sale-banner-wrapper {background: #0012f8;}
 
 
-gsc-control-cse input.gsc-input {
-    height: 0px !important;
+/* Resize Google CSE input */
+.gsc-control-cse input.gsc-input {
+    height: 306px !important;
+    padding: 60px 100px !important;
     font-size: 14px !important;
-    padding: px 0px !important;
+}
+
+/* Fix input container height */
+.gsc-control-cse .gsc-input-box {
+    height: 306px !important;
 }
