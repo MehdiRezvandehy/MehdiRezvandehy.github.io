@@ -593,16 +593,3 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 .product-grid .product-grid-image .product-grid__image-sale-banner-wrapper {background: #0012f8;}
 #wsite-com-category-product-group .category__image-sale-banner-wrapper {background: #0012f8;}
 #wsite-search-product-results .wsite-search-product-result .wsite-search-product-image-container .search__image-sale-banner-wrapper {background: #0012f8;}
-
-
-/* Resize Google CSE input */
-.gsc-control-cse input.gsc-input {
-    height: 306px !important;
-    padding: 60px 100px !important;
-    font-size: 14px !important;
-}
-
-/* Fix input container height */
-.gsc-control-cse .gsc-input-box {
-    height: 306px !important;
-}
