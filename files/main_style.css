@@ -597,7 +597,7 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 
 /* Resize search input */
 .gsc-control-cse input.gsc-input {
-    height: 36px !important;
+    height: 0px !important;
     font-size: 14px !important;
     padding: 6px 10px !important;
 }
