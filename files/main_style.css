@@ -610,6 +610,6 @@ form.search-form input {
 /* Match the search button height (if any) */
 button,
 input[type="submit"] {
-  height: 30px !important;
+  height: -30px !important;
   padding: 4px 8px !important;
 }
