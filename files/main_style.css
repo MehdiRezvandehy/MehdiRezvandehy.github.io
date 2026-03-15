@@ -593,3 +593,56 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 .product-grid .product-grid-image .product-grid__image-sale-banner-wrapper {background: #0012f8;}
 #wsite-com-category-product-group .category__image-sale-banner-wrapper {background: #0012f8;}
 #wsite-search-product-results .wsite-search-product-result .wsite-search-product-image-container .search__image-sale-banner-wrapper {background: #0012f8;}
+
+
+
+/* Body margin */
+body {
+    margin: 10px;
+}
+
+/* Search container */
+.gsc-control-cse,
+.gcse-search-box {
+    background-color: #387deb !important;
+    border: 0 !important;
+    padding: 6px 10px !important;
+    border-radius: 2px;
+    overflow: hidden;
+    width: 300px !important; /* Reduced width */
+}
+
+/* Remove extra margins */
+form.gsc-search-box,
+table.gsc-search-box {
+    margin-bottom: 0 !important;
+}
+
+/* Input box styling */
+#gsc-i-id1 {
+    color: #000 !important;
+    text-indent: 0 !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+    background: none !important;
+    padding: 6px 10px !important;
+    box-sizing: border-box;
+    width: 100% !important; /* Fill container */
+}
+
+/* Placeholder colors */
+#gsc-i-id1::-webkit-input-placeholder,
+#gsc-i-id1::-moz-placeholder,
+#gsc-i-id1:-ms-input-placeholder {
+    color: #000 !important;
+}
+
+/* Hide Google branding button */
+.gsib_b {
+    display: none !important;
+}
+
+/* Hide search button/icon */
+.gsc-search-button-v2 {
+    display: none !important;
+}
